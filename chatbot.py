@@ -19,6 +19,10 @@ patrones = [
         r"bye|chao|adios|diu|hasta luego|Hasta Luego",  # Si el usuario dice "bye" o algo similar
         ["¡Hasta luego! Si necesitas algo más, no dudes en preguntar.",]  # El chatbot se despide y finaliza la conversación
     ],
+    [
+        r"(|)",
+        ["Lo siento, no puedo procesar tu mensaje"]
+    ]
 ]
 
 def chatbot():
